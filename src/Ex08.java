@@ -1,9 +1,7 @@
 /*
 -->Faça um programa que pergunte o preço de três produtos e informe qual produto
    você deve comprar, sabendo que a decisão é sempre pelo mais barato.
-
  */
-
 
 import java.util.Scanner;
 
@@ -11,7 +9,7 @@ public class Ex08 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Digite o valor dos tres produtos ");
+        System.out.println("Digite o valor dos tres produtos: ");
         double num1 = sc.nextDouble();
         double num2 = sc.nextDouble();
         double num3 = sc.nextDouble();

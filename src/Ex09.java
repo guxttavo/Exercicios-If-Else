@@ -14,21 +14,10 @@ public class Ex09 {
         String turno = sc.next();
 
         switch (turno) {
-            case "m":
-            case "M":
-                System.out.println("Bom dia!");
-                break;
-            case "v":
-            case "V":
-                System.out.println("Boa tarde!");
-                break;
-            case "n":
-            case "N":
-                System.out.println("Boa noite!");
-                break;
-            default:
-                System.out.println("Valor inválido!");
-
+            case "m", "M" -> System.out.println("Bom dia!");
+            case "v", "V" -> System.out.println("Boa tarde!");
+            case "n", "N" -> System.out.println("Boa noite!");
+            default -> System.out.println("Valor inválido!");
         }
     }
 }
